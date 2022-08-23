@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post">
+    <label for="iest">Estado</label>
+    <select name="estado" id="iest">
+        <option value="MA">Maranhão</option>
+        <option value="PA" selected>Pará</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+    </select>
+
+    <p>
+        <label for="ipro">Profissção:</label>
+        <input type="text" name="profissão" id="ipro" list="lstprof">
+        <datalist id="lstprof">
+            <option>Administrador</option>
+            <option>Programador</option>
+            <option>Assistênte Técnico</option>
+        </datalist>
+    </p>
+
+    <p><label for="imsg">Mensagem:</label> <br>
+    <textarea name="msg" id="imsg" cols="60" rows="6" placeholder="Por padrão nenhuma mensagem que é enviada passa dispercebida. Tudo que você relatar aqui será levado em consideração, e você terá um retorno se possível."></textarea>
+    </p>
+
+    <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
