@@ -1,3 +1,14 @@
 @charset "UTF-8";
 
 /*Configuração geral*/
+
+* {
+    margin: 0px;
+
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
