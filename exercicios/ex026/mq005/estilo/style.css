@@ -28,10 +28,6 @@ i#burguer {
     cursor: pointer;
 }
 
-i#burguer:hover {
-    background-color: white;
-    color: black;
-}
 
 menu {
     display: none;
