@@ -72,14 +72,14 @@ aside {
     border-radius: 10px;
 }
 
-figure img {
+picture img {
     width: 32.2%;
     height: 220px;
     border-radius: 20px;
     border: 1px solid black;
 }
 
-figure > img#todos {
+picture > img#todos {
     width: 100%;
 }
 
