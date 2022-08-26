@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+@font-face {
+    font-family: 'amor';
+    src: url(../fontes/AmoreMIO.ttf);
+}
+
+
+:root {
+    --cor1: #E83225;
+    --cor2: #ec4e439a;
+    --fonte1: 'amor',Arial;
+    --fonte2: 'Love Ya Like A Sister', cursive;
+    --fonte3: Arial ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor1);
+    padding: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+header > h1 {
+    font-family: var(--fonte1);
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 1px 4px white;
+}
+header h2 {
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 1em;
+}
+
+main {
+    display: block;
+    margin: auto;
+    padding: 0px 10px 15px 10px;
+    width: 500px;
+}
+
+article {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
+    width: 480px;
+}
+
+article h1 {
+    font-family: var(--fonte2);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 20px;
+    text-indent: 20px;
+    font-family: var(--fonte3);
+    font-size: 1.2em;
+    line-height: 26px;
+}
+
+aside {
+    background-color: #B5271D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+figure img {
+    width: 136px;
+    height: 220px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+figure > img#todos {
+    width: 420px;
+}
+
+footer {
+    background-color: #E83225;
+    text-align: center;
+    font-family: var(--fonte3);
+    padding: 3px;
+}
