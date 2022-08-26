@@ -73,15 +73,10 @@ aside {
 }
 
 picture img {
-    width: 32%;
-    height: 220px;
     border-radius: 20px;
     border: 1px solid black;
 }
 
-picture > img#todos {
-    width: 100%;
-}
 
 footer {
     background-color: #E83225;
