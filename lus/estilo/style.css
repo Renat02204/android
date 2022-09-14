@@ -65,6 +65,16 @@ article#poesia {
     line-height: 25px;
 }
 
+section#img {
+background-image: url(../imagens/fotoefeitos.com_.jpg);
+background-position: center center;
+background-size: cover;
+width: 450px;
+height: 300px;
+margin: auto;
+border-radius: 5%;
+}
+
 footer {
     background-color: red;
     text-align: center;
