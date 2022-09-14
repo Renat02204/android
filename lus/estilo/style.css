@@ -57,3 +57,14 @@ img {
 
     box-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
+
+article#poesia {
+    text-indent: 0px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+}
