@@ -6,13 +6,14 @@
 
 
 body, html {
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     background-image: url(../imagens/fundo.jpg);
     background-position: bottom right;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    max-width: 500px;
 }
 
 header {
