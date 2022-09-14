@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@font-face {
+    font-family: amor;
+    src: url(../fontes/AmoreMIO.ttf);
+}
+
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagens/fundo.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url(../imagens/images\ \(1\).jpg);
+    text-align: center;
+    text-shadow: 1px 1px 3px white;
+}
+
+header h1 {
+    margin: 0px;
+    font-family: amor,Arial;
+    padding-top: 15px;
+    font-size: 3em;
+}
+
+header h2 {
+    font-size: 15px;
+    margin: 0px;
+    padding: 15px;
+}
+
+article {
+    background-color: rgb(240, 71, 71);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 5px 15px 5px;
+    text-align: justify;
+    text-indent: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+}
+
+div#img {
+    display: block;
+    margin: auto;
+    
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+}
+
+img {
+
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
